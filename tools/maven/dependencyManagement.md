@@ -73,8 +73,8 @@ B.pom
                                       └────────────┘
 ```
 
-A 最终会依赖到 common，这里的 common 包涉及到了两个版本：
-1）A 的 parent pom 中的 dependencyManagement 指定的 common 版本为 1.0.0；
+A 最终会依赖到 common，这里的 common 包涉及到了两个版本：\
+1）A 的 parent pom 中的 dependencyManagement 指定的 common 版本为 1.0.0；\
 2）A -> B -> common:2.0.0
 
 最终A依赖的 common 版本为 **1.0.0**。此为 maven 的特性：
